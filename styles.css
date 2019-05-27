@@ -1,9 +1,54 @@
 body {
-  font-family: minion-3-display, sans-serif;
-  font-size: 50px;
+  font-family: dita-wd, dita-cd, sans-serif;
+  font-size: 14px;
   line-height: 20px;
+  background-color: black;
+  text-align: center;
+  line-height: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-image: url('./sexyluigi.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-a {
-  color: black;
+@media (min-width:600px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:800px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:1000px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+.bodytext {
+  padding: 20px;
+  color: white;
+}
+
+.sexyluigi {
+  letter-spacing: 30px;
+}
+
+.sexybutton {
+  border-radius: 12px;
+  border: 6px solid #fff;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  background-color: black;
 }
